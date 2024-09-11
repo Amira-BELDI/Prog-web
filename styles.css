@@ -1,9 +1,57 @@
 
-.header {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
 }
+.header {
+   
+    background-color: rgb(14, 15, 10);
+    padding: 1em; 
+    height: 120px;
+       
+}
+.header h1 {
+    color: #959bd4;
+    border: 2px solid #bbbfe1; 
+    padding: 0.5em; 
+    border-radius: 8px; 
+    position: absolute; 
+    left: 40%;
+}
+    
+
+.header .logo {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 80px; 
+    border-radius: 12px;
+}
+.header nav {
+    
+    display: flex;
+    gap: 1em;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+}
+.auth .btn {
+    color: #959bd4; /* Couleur du texte (pour contraster avec le fond du header) */
+    background-color: transparent; /* Enlève la couleur de fond des boutons */
+    border: 2px solid #9ab4e3; /* Bordure de couleur du header */
+    padding: 0.5em 1em; /* Espacement intérieur des boutons */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    border-radius: 4px; /* Bords arrondis */
+    font-weight: bold; /* Gras */
+}
+.auth .btn:hover {
+    background-color: rgba(214, 217, 223, 0.2); 
+     
+}
+
+
 
 h4 {
     color: #3e1e9d;
