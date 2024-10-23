@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roadmap pour Apprendre les API</title>
-    <link rel="icon" href="icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Feuilles & Racines</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="header">
-        <img src="image.jpg" alt="Logo" class="logo">
-        <h1>Roadmaps</h1>
-        <nav class="auth">
-                <a href="#login" class="btn">Se connecter</a>
-                <a href="#signup" class="btn">Créer un compte</a>
-        </nav>
 
-           
+    
+    <nav>
+        <div class="logo-container">
+            <img src="images/logo.png"> 
+            <a href="index2.html">Feuilles & Racines</a> 
+        </div>
+        <div class="menu">
+            <a href="#">Fiches d'entretien</a>
+            <a href="#">Conseils</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Guide des Plantes</h1>
+        <p class="intro">Bienvenue sur votre site de référence pour tout savoir sur les plantes ! Découvrez des astuces pour prendre soin de vos plantes, leur origine, et bien plus encore.</p>
     </header>
-    <main>
 
-        <section class="main_section">
-               
-        <h4>Définition d'une API</h4>
-        <p>Une API (application programming interface ou « interface de programmation d'application ») est une interface logicielle qui permet de « connecter » un logiciel ou un service à un autre logiciel ou service afin d'échanger des données et des fonctionnalités.</p>
-        <h4>Road map</h4>
-        <p>Voici une petite roadmap pour apprendre les API :</p>
-        <ul>
-            <li>Comprendre les bases du Web : se familiariser avec les concepts d'HTTP, URL, et requêtes GET/POST.</li>
-            <li>Apprendre les formats de données : JSON et XML sont couramment utilisés dans les API.</li>
-            <li>Maîtriser les méthodes d'API REST : apprendre les requêtes GET, POST, PUT, DELETE.</li>
-            <li>Utiliser des outils pour tester les API : explorer Postman ou cURL pour tester des requêtes.</li>
-            <li>Créer une API simple : démarrer avec Flask ou FastAPI pour créer une API en Python.</li>
-            <li>Comprendre l'authentification : découvrir les API keys et OAuth.</li>
-            <li>Connaître les statuts HTTP : apprendre les codes de réponse (200, 400, 500) et comment gérer les erreurs.</li>
-            <li>Documenter une API : découvrir Swagger ou OpenAPI pour écrire la documentation.</li>
-            <li>Tester et sécuriser une API : validation des entrées et bonnes pratiques de sécurité.</li>
-        </ul>    
+    <section class="categories">
+        <div class="category quiz">
+            <h3>Quiz</h3>
+            <p>Testez vos connaissances sur les plantes avec notre quiz interactif.</p>
+        </div>
 
-        </section>
-    </main>
+        <div class="category jardinieres">
+            <h3>Jardinage</h3>
+            <p>Tout pour réussir votre jardin et entretenir vos plantes !</p>
+        </div>
+
+        <div class="category entretien">
+            <h3>Conseils d'Entretien</h3>
+            <p>Apprenez à bien entretenir vos plantes au quotidien.</p>
+        </div>
+    </section>
+
+    
     <footer></footer>
-</body>
-</html>
