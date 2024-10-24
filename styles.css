@@ -104,4 +104,44 @@ header h1 {
     margin: 10px 0;
     color: #2e7d32;
 }
+.plants-section {
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
 
+.plant-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.plant-list li {
+    width: 30%;
+}
+
+.plant-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.plant-card:hover {
+    transform: scale(1.05);
+}
+
+.plant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.plant-info {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
